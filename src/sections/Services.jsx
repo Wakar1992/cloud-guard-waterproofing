@@ -39,7 +39,7 @@ function Sevices() {
             allservices.map((item, index)=>(
               <motion.div
               variants={zoomInVariants}
-              className='flex jusify-center items-start gap-5 p-8'
+              className='flex justify-center items-start gap-5 p-8'
               key={index}
               >
                 <img src={item.icon} alt='icon' className='w-[70px] border-2 border-yellow-500
