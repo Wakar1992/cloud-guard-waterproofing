@@ -25,7 +25,7 @@ const posts = [
     date: '3 April 2023',
     avatar: 'https://www.uifaces.co/wp-content/uploads/2022/01/uifaces-logo.svg',
     poster:
-      'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80',
+      'waterproofing/img1.jpg',
   },
   {
     category: 'Technology',
