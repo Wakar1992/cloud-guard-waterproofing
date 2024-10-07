@@ -47,7 +47,7 @@ function Contact() {
           <textarea placeholder='Enter Your Message' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'></textarea>
             <motion.button
             variants={zoomInVariants}
-            className='bg-yellow-500 hover:bg-black hover:text-white px-10 py-4 text-black font-bold rouded-lg w-full'
+            className='bg-yellow-500 hover:bg-black hover:text-white px-10 py-4 text-black font-bold rounded-lg w-full'
             >SUBMIT
             </motion.button>
           </motion.form>
