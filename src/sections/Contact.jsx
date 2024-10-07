@@ -27,7 +27,7 @@ function Contact() {
             reach us for any query
           </motion.h1>
           <div className='w-[120px] h-[6px] bg-yellow-500'></div>
-          <p className='text-3xl italic text-gray-50 mt-[60px]'>Lorem</p>
+          <p className='text-3xl italic text-gray-500 mt-[60px]'>We are the leader with 10 years of experience in the construction market!</p>
         </motion.div>
         <motion.div
           initial='hidden'
@@ -45,6 +45,11 @@ function Contact() {
           <input type='text' placeholder='Enter Email' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'/>
           <input type='text' placeholder='Enter Number' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'/>
           <textarea placeholder='Enter Your Message' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'></textarea>
+            <motion.button
+            variants={zoomInVariants}
+            className='bg-yellow-500 hover:bg-black hover:text-white px-10 py-4'
+            >SUBMIT
+            </motion.button>
           </motion.form>
         </motion.div>
       </div>
