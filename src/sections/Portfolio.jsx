@@ -28,7 +28,7 @@ function Portfolio() {
           Portfolio
         </motion.h1>
         <motion.h1
-        variants={slideUpVariants} className='text-black uppercase text-[40px] font-bold text-center'
+        variants={slideUpVariants} className='text-white uppercase text-[40px] font-bold text-center'
         >
           OUR BEST PROJECTS
         </motion.h1>
