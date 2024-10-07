@@ -27,6 +27,25 @@ function Contact() {
             reach us for any query
           </motion.h1>
           <div className='w-[120px] h-[6px] bg-yellow-500'></div>
+          <p className='text-3xl italic text-gray-50 mt-[60px]'>Lorem</p>
+        </motion.div>
+        <motion.div
+          initial='hidden'
+          whileInView='visible'
+          variants={slideUpVariants}
+          className='lg:w-[40%] w-full flex flex-col justify-center items-start gap-6'
+          >
+          <motion.form
+          initial='hidden'
+          whileInView='visible'
+          variants={zoomInVariants}
+          className='flex flex-col justify-center items-start gap-4 w-full'
+          >
+          <input type='text' placeholder='Enter Fullname' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'/>
+          <input type='text' placeholder='Enter Email' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'/>
+          <input type='text' placeholder='Enter Number' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'/>
+          <textarea placeholder='Enter Your Message' class='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'></textarea>
+          </motion.form>
         </motion.div>
       </div>
     </div>
