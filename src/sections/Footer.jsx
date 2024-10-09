@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <button tel="+91 9663699655">contact us</button>
+      <button tel="+919663699655">contact us</button>
     </div>
   )
 }
